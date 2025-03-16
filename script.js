@@ -16,7 +16,7 @@ let passwordAttempts = 0;
 // Validación del Nombre
 document.getElementById("name-btn").addEventListener("click", function() {
     const nameInput = document.getElementById("name-input").value.toLowerCase();
-    if (nameInput === "gabriela") {
+    if (nameInput === "gaby") {
         document.getElementById("name-screen").classList.add("hidden");
         document.getElementById("password-screen").classList.remove("hidden");
     } else {
