@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amor 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Música de fondo -->
+    <audio id="bg-music" loop>
+        <source src="/musica/musica1.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <!-- Pantalla de Inicio -->
+        <div id="start-screen">
+            <h1>Hola mi amor 💖</h1>
+            <button id="start-btn">Start</button>
+        </div>
+
+        <!-- Pantalla de Ingreso -->
+        <div id="name-screen" class="hidden">
+            <h2>¿Cuál es tu nombre? 💕</h2>
+            <input type="text" id="name-input" placeholder="Escribe tu nombre">
+            <p id="name-hint" class="hidden">Prueba con Gabriela 😉</p>
+            <button id="name-btn">Continuar</button>
+        </div>
+
+        <!-- Pantalla de Contraseña -->
+        <div id="password-screen" class="hidden">
+            <h2>Ingresa la contraseña 💖</h2>
+            <input type="password" id="password-input" placeholder="Contraseña">
+            <p id="password-hint" class="hidden">Pista: teamo 💕</p>
+            <button id="password-btn">Acceder</button>
+        </div>
+
+        <!-- Mensaje Final -->
+        <div id="message-screen" class="hidden">
+            <h2>Me haces muy feliz, amorcito 💖</h2>
+            <button id="continue-btn">Continuar</button>
+        </div>
+
+        <!-- Pregunta Final -->
+        <div id="final-screen" class="hidden">
+            <h2>¿Me querés mucho bb? 💕</h2>
+            <button id="yes-btn">Chi 💖</button>
+            <button id="no-btn">No 💔</button>
+        </div>
+
+        <!-- Mensaje de Amor Final -->
+        <div id="love-message" class="hidden">
+            <h1>Yo también bebechita 💖💖💖</h1>
+        </div>
+    </div>
+
+    <footer>
+        <p>Para mi amorcito 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
